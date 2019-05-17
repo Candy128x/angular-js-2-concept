@@ -1,4 +1,4 @@
-# Project Name
+# AngularJS-2
 
 ---
 ## Software Requirements
