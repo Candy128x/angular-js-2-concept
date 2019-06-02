@@ -2,7 +2,7 @@
 
 ---
 ## Software Requirements
-- Name of Software: Software v3.7.*
+- nodejs version: v8.10.0
 
 
 ---
