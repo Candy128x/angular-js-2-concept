@@ -14,6 +14,17 @@
 - .ts: type script file
 
 ---
+### Components
+- Are the main building block of Angular
+- Is created using a TypeScript Class & Decorators
+- Class contains the properties & methods
+- Decorators contains Template, TemplateUrl, Styles, Selector, etc
+
+
+---
+### Nested Components
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular
