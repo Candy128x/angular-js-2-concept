@@ -44,3 +44,8 @@
 ## Class Binding
 	- css class will be bind
 <kbd><img src="/imgs-readme/class-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Style Binding
+	- css attribute will be bind
+<kbd><img src="/imgs-readme/style-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>

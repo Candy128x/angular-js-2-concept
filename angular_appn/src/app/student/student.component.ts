@@ -16,6 +16,8 @@ export class StudentComponent {
 	colspan:number = 2;
 	cssclstouse:string = "bg-gray";
 	usefontcomic:boolean = true;
+	tdagecolor:string= "yellow";
+	tdagebgclr:string= "green";
 
 	studName() : string {
 		return this.firstName + ' ' + this.lastName;

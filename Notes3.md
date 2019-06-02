@@ -55,6 +55,10 @@
 - remove/add css classes on run time
 - [code] created student folder
 
+---
+### Style Binding
+- bind style attribute
+
 
 ---
 @ref
