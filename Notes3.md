@@ -25,6 +25,9 @@
 ### Nested Components
 
 ---
+### Styling Components
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular

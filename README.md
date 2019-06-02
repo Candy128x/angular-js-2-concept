@@ -19,3 +19,8 @@
 ## Nested Component
 	- integrate EmployeeComponent
 <kbd><img src="/imgs-readme/nested-components_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Styling Component
+	- integrate StudentComponent with css
+<kbd><img src="/imgs-readme/styling-components_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
