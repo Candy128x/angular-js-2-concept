@@ -19,10 +19,20 @@
 	</tr>
 	<tr>
 		<td>Full Name</td>
-		<td>{{studName()}}</td>
+		<td>Mr. {{studName()}}</td>
 	</tr>
 	<tr>
 		<td>Balance</td>
 		<td>{{balance * 30}}</td>
 	</tr>
 </table>
+
+
+<hr>
+<h1>Property Binding:</h1>
+Student Name: <span [innerHtml]="firstName + ' ' + lastName"></span>
+
+<h3>Show Apple Image</h3>
+<img [src]="appleImgPath" width="128" height="128"/>
+
+<hr>

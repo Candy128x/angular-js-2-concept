@@ -12,6 +12,7 @@ export class StudentComponent {
 	age:number = 19;
 	address:string = 'Banglore';
 	balance:number = 2000;
+	appleImgPath:string = 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg';
 
 	studName() : string {
 		return this.firstName + ' ' + this.lastName;

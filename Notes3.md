@@ -36,6 +36,12 @@
 - [code] manipulation in student folder, multiplication, use fun name: studName..
 
 ---
+### Property Binding
+- in property binding we cann't do multiplexing, arithmatic operation
+- const string concat not possible. Eg: concat Mr. {{name}}
+- [code] created student folder
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular

@@ -29,3 +29,8 @@
 ## Interpolation
 	- Manipulation in StudentComponent folder, multiplication, use fun name: studName..
 <kbd><img src="/imgs-readme/interpolation_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Property Binding
+	- use/manipulate innerHtml, img src property.. with `[]` notation.. 
+<kbd><img src="/imgs-readme/property-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
