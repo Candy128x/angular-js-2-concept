@@ -50,6 +50,13 @@
 	- [attr.colspan] = "colspan" // valid
 
 ---
+### Class Binding
+- css class we bind
+- remove/add css classes on run time
+- [code] created student folder
+
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular

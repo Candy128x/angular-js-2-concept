@@ -5,3 +5,11 @@ h2 {
 table {
 	border-collapse: collapse;
 }
+
+.bg-gray {
+	background: gray;
+}
+
+.font-comic {
+	font-family: comic sans ms;
+}

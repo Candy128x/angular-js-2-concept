@@ -14,6 +14,8 @@ export class StudentComponent {
 	balance:number = 2000;
 	appleImgPath:string = 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg';
 	colspan:number = 2;
+	cssclstouse:string = "bg-gray";
+	usefontcomic:boolean = true;
 
 	studName() : string {
 		return this.firstName + ' ' + this.lastName;

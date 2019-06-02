@@ -20,11 +20,11 @@
 		<td>Address</td>
 		<td>{{address}}</td>
 	</tr>
-	<tr>
+	<tr [class]="cssclstouse">
 		<td>Full Name</td>
 		<td>Mr. {{studName()}}</td>
 	</tr>
-	<tr>
+	<tr [class.font-comic]="usefontcomic">
 		<td>Balance</td>
 		<td>{{balance * 30}}</td>
 	</tr>

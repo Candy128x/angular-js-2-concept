@@ -39,3 +39,8 @@
 ## Attribute Binding
 	- Collepse two <td>, Student Information using `attr` tag
 <kbd><img src="/imgs-readme/attribute-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Class Binding
+	- css class will be bind
+<kbd><img src="/imgs-readme/class-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
