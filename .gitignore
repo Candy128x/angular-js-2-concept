@@ -1,0 +1,4 @@
+#--GITIGNORE--
+#.gitignore
+*.bash
+*.zip
