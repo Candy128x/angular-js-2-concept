@@ -11,6 +11,7 @@ export class StudentComponent {
 	lastName:string = 'Kumar';
 	age:number = 19;
 	address:string = 'Banglore';
+	balance:number = 2000;
 
 	studName() : string {
 		return this.firstName + ' ' + this.lastName;

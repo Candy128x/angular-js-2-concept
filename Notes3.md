@@ -23,9 +23,17 @@
 
 ---
 ### Nested Components
+- [code] created employee folder
 
 ---
 ### Styling Components
+- [code] created student folder
+
+---
+### Interpolation
+- is created using {{ }}
+- can keep a property, method or expressions
+- [code] manipulation in student folder, multiplication, use fun name: studName..
 
 ---
 @ref

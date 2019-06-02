@@ -24,3 +24,8 @@
 ## Styling Component
 	- integrate StudentComponent with css
 <kbd><img src="/imgs-readme/styling-components_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Interpolation
+	- Manipulation in StudentComponent folder, multiplication, use fun name: studName..
+<kbd><img src="/imgs-readme/interpolation_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
