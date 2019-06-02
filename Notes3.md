@@ -42,6 +42,14 @@
 - [code] created student folder
 
 ---
+### Attribute Binding
+- It's used via [attr.name]
+- It applicable on html DOM property, Not on html attribute
+- Eg: 
+	- [colspan] = "colspan" // invalid
+	- [attr.colspan] = "colspan" // valid
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular

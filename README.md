@@ -34,3 +34,8 @@
 ## Property Binding
 	- use/manipulate innerHtml, img src property.. with `[]` notation.. 
 <kbd><img src="/imgs-readme/property-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Attribute Binding
+	- Collepse two <td>, Student Information using `attr` tag
+<kbd><img src="/imgs-readme/attribute-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
