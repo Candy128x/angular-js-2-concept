@@ -59,6 +59,10 @@
 ### Style Binding
 - bind style attribute
 
+---
+### Events Binding
+- for event binding we use `(` & `)` bracks
+- [code] created student folder
 
 ---
 @ref

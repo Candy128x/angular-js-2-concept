@@ -22,4 +22,8 @@ export class StudentComponent {
 	studName() : string {
 		return this.firstName + ' ' + this.lastName;
 	}
+
+	btnClickMe() : void {
+		alert('Hey You Clicked on `Click Me` Button.');
+	}
 }

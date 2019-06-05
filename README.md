@@ -49,3 +49,8 @@
 ## Style Binding
 	- css attribute will be bind
 <kbd><img src="/imgs-readme/style-binding_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Events Binding
+	- Click btn events, Click on Click Me btn.. to trigger events
+<kbd><img src="/imgs-readme/events-binding_v3-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
