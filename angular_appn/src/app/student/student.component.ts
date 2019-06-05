@@ -20,6 +20,7 @@ export class StudentComponent {
 	tdagebgclr:string= "green";
 	btnTxt:string = "Show Details";
 	showDetails:boolean = false;
+	val:string = 'Ashish';
 
 	studName() : string {
 		return this.firstName + ' ' + this.lastName;

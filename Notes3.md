@@ -65,6 +65,10 @@
 - [code] created student folder
 
 ---
+### Two Way Binding
+- [code] created student folder
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular

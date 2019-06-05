@@ -50,4 +50,16 @@ Student Name: <span [innerHtml]="firstName + ' ' + lastName"></span>
 <div *ngIf="showDetails">
 	<h3>Message handel by Events Binding</h3>
 </div>
-<br><br><br><br><br>
+<br><br>
+
+
+<hr>
+<h1>Two Way Binding:</h1>
+
+<!-- [(ngModule)] | [value]='val' (input)='val = $event.target.value' -->
+<input name="text1" type="text" [(ngModel)]='val' />
+<br><br>
+{{val}}
+<br><br>
+<input name="text2" type="text" [(ngModel)]='val' />
+<br><br><br><br>
