@@ -18,6 +18,8 @@ export class StudentComponent {
 	usefontcomic:boolean = true;
 	tdagecolor:string= "yellow";
 	tdagebgclr:string= "green";
+	btnTxt:string = "Show Details";
+	showDetails:boolean = false;
 
 	studName() : string {
 		return this.firstName + ' ' + this.lastName;
@@ -25,5 +27,10 @@ export class StudentComponent {
 
 	btnClickMe() : void {
 		alert('Hey You Clicked on `Click Me` Button.');
+	}
+
+	displayDetails() : void {
+		this.showDetails = !this.showDetails;
+		this.btnTxt = this.showDetails == true ? "Hide Details" : "Show Details";
 	}
 }

@@ -54,3 +54,6 @@
 ## Events Binding
 	- Click btn events, Click on Click Me btn.. to trigger events
 <kbd><img src="/imgs-readme/events-binding_v3-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
+
+	- Click btn events, Click on Click to Show Details btn.. to show message
+<kbd><img src="/imgs-readme/event-binding-btnShowMsg_v3-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>

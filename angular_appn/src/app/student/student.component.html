@@ -44,3 +44,10 @@ Student Name: <span [innerHtml]="firstName + ' ' + lastName"></span>
 
 <button (click)="btnClickMe()">Click Me</button>
 <br><br>
+
+<button (click)="displayDetails()">{{btnTxt}}</button>
+<br>
+<div *ngIf="showDetails">
+	<h3>Message handel by Events Binding</h3>
+</div>
+<br><br><br><br><br>
