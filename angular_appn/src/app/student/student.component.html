@@ -84,7 +84,7 @@ Student Name: <span [innerHtml]="firstName + ' ' + lastName"></span>
 			<td>{{stud.name | uppercase}}</td>
 			<td>{{stud.dob}}</td>
 			<td>{{stud.eMailId | lowercase}}</td>
-			<td>{{stud.salary | currency:'INR':true}}</td>
+			<td>{{stud.salary | inhand:20 | currency:'INR':true}}</td>
 			<td>{{stud.city}}</td>
 		</tr>
 		<tr *ngIf="studentRecords.length==0">

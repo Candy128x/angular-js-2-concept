@@ -89,6 +89,12 @@
 
 
 ---
+### Custome Pipe
+- create studentSalary.pipe.ts
+- add entry in `app.module.js`
+
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular
