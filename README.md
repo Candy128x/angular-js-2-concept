@@ -80,6 +80,7 @@
 ## Custom Pipes
 	- if we use `stud.salary | inhand` take tax = 10 as default value
 <kbd><img src="/imgs-readme/custom-pipe_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
 	- if we use `stud.salary | inhand:20`, we pass argument 20 as tax.
 	- Note: we can pass multiple argument as `:` like a:b:n ..
 <kbd><img src="/imgs-readme/custom-pipe_v2-1.png" alt="img_alternative_txt_v1-1"></img></kbd>

@@ -87,11 +87,15 @@
 - custom pipes can also be created
 - [code] created student folder
 
-
 ---
 ### Custome Pipe
 - create studentSalary.pipe.ts
 - add entry in `app.module.js`
+- [code] created student folder
+
+---
+### Routing
+- 
 
 
 ---

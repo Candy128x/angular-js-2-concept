@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 
 export class StudentSalaryPipe implements PipeTransform {
-	transform(value: string, tax: string){
+	transform(value: number, tax: number){
 		tax = tax > 1 ? tax : 10;
 		return (value) - ((value) * tax / 100);
 	}
