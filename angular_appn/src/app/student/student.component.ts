@@ -34,4 +34,8 @@ export class StudentComponent {
 		this.showDetails = !this.showDetails;
 		this.btnTxt = this.showDetails == true ? "Hide Details" : "Show Details";
 	}
+
+	studentRecords: any[] = [
+		
+	];
 }

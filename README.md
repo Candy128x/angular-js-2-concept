@@ -62,3 +62,12 @@
 ## Two Way Binding (gif img)
 	- Type in one text box it's updated in other tag, text box..
 <kbd><img src="/imgs-readme/two-way-binding_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Reading Data
+	- Data Not Found. Pass blank/empty array from component.
+<kbd><img src="/imgs-readme/reading-data_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+	- Render Array value from component to view.
+<kbd><img src="/imgs-readme/reading-data_v2-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+

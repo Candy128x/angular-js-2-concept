@@ -69,6 +69,17 @@
 - [code] created student folder
 
 ---
+### Metadata
+- data about data.
+- Giving additional information to a angular component. Eg: `my-app`
+
+---
+### Reading Data
+- iterator array value using `*ngFor`
+- show `Data Not Found!` msg using `*ngIf` tag.
+
+
+---
 @ref
 - www.angular.io
 - Repository: github.com/angular/angular
