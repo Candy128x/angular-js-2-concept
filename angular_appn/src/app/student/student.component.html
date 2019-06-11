@@ -72,19 +72,23 @@ Student Name: <span [innerHtml]="firstName + ' ' + lastName"></span>
 		<tr>
 			<th>ID</th>
 			<th>Name</th>
+			<th>D.O.B.</th>
 			<th>eMail</th>
+			<th>Salary</th>
 			<th>City</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr *ngFor="let stud of studentRecords">
 			<td>{{stud.id}}</td>
-			<td>{{stud.name}}</td>
-			<td>{{stud.eMailId}}</td>
+			<td>{{stud.name | uppercase}}</td>
+			<td>{{stud.dob}}</td>
+			<td>{{stud.eMailId | lowercase}}</td>
+			<td>{{stud.salary | currency:'INR':true}}</td>
 			<td>{{stud.city}}</td>
 		</tr>
 		<tr *ngIf="studentRecords.length==0">
-			<td colspan="4">Data Not Found!</td>
+			<td colspan="6">Data Not Found!</td>
 		</tr>
 	</tbody>
 </table>

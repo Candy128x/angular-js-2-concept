@@ -36,6 +36,10 @@ export class StudentComponent {
 	}
 
 	studentRecords: any[] = [
-		
+		{id: 101, name:'Shiv', dob: '01/01/1996', eMailId: 'shiv@gm.com', salary: 20000, city: 'Mumbai'},
+		{id: 102, name:'Ganesh', dob: '11/01/1996', eMailId: 'ganesh@gm.com', salary: 29533, city: 'Kolkata'},
+		{id: 103, name:'Pawan', dob: '16/01/1997', eMailId: 'pawan@gm.com', salary: 31000, city: 'Banglore'},
+		{id: 104, name:'Chatur', dob: '24/04/1993', eMailId: 'chatur@gm.com', salary: 18000, city: 'Ahmedabad'},
+		{id: 105, name:'Narayan', dob: '12/10/1996', eMailId: 'narayan@gm.com', salary: 39800, city: 'Mumbai'}
 	];
 }

@@ -77,6 +77,15 @@
 ### Reading Data
 - iterator array value using `*ngFor`
 - show `Data Not Found!` msg using `*ngIf` tag.
+- [code] created student folder
+
+---
+### Pipes
+- Are used to transform data
+- can be applied using `|` symbol
+- providing different pipes for String, Date, Currency, etc.
+- custom pipes can also be created
+- [code] created student folder
 
 
 ---

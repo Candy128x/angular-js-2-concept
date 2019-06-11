@@ -71,3 +71,7 @@
 	- Render Array value from component to view.
 <kbd><img src="/imgs-readme/reading-data_v2-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
 
+---
+## Style Binding
+	- css attribute will be bind
+<kbd><img src="/imgs-readme/pipes_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
