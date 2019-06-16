@@ -84,3 +84,8 @@
 	- if we use `stud.salary | inhand:20`, we pass argument 20 as tax.
 	- Note: we can pass multiple argument as `:` like a:b:n ..
 <kbd><img src="/imgs-readme/custom-pipe_v2-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+## Routing
+	- Render content using component.
+<kbd><img src="/imgs-readme/routing_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>

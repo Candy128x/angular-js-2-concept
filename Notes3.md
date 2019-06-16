@@ -95,7 +95,7 @@
 
 ---
 ### Routing
-- 
+- Render content using component.
 
 
 ---
