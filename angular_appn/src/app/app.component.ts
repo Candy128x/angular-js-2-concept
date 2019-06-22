@@ -3,13 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   template: `
-	<h2>Routing</h2>
-	<ul>
-		<li><a [routerLink] = "['/Product']">Product</a></li>
-		<li><a [routerLink] = "['/Inventory']">Inventory</a></li>
-	</ul>
-	<router-outlet></router-outlet>
-	<br/><br/><hr/>
+	<spa>Loding Employee...</spa>
 
 	<h1>Hello {{name}}</h1>
 		<employee>Loding Employee...</employee>

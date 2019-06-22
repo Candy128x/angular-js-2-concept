@@ -7,6 +7,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { StudentComponent } from './student/student.component';
 import { StudentSalaryPipe } from './student/studentSalary.pipe';
 
+import { SpaComponent } from './spa/spa.component';
 import { ProductComponent } from './spa/product.component';
 import { InventoryComponent } from './spa/inventory.component';
 import { PageNotFoundComponent } from './spa/PageNotFound.component';
@@ -14,6 +15,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 const appRoutes: Routes = [
+	{ path: 'Home', component: SpaComponent },
 	{ path: 'Product', component: ProductComponent },
 	{ path: 'Inventory', component: InventoryComponent },
 	{ path: '**', component: PageNotFoundComponent },
@@ -23,7 +25,7 @@ const appRoutes: Routes = [
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(appRoutes) ],
   declarations: [ AppComponent, EmployeeComponent, StudentComponent, StudentSalaryPipe,
-  					ProductComponent, InventoryComponent, PageNotFoundComponent ],
+  					SpaComponent, ProductComponent, InventoryComponent, PageNotFoundComponent ],
   bootstrap:    [ AppComponent ]
 })
 

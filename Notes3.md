@@ -96,6 +96,11 @@
 ---
 ### Routing
 - Render content using component.
+- Render page if requested page not found.
+
+---
+### Navigation
+- Enable to jump one section to other section.
 
 
 ---

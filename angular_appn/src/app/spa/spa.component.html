@@ -1,0 +1,14 @@
+<h1>SPA</h1>
+<button (click)="goToHome()">Go To Home</button>
+<button (click)="goToInventory()">Go To Inventory</button>
+<button (click)="goToProduct()">Go To Product</button>
+<br/><br/><hr/>
+
+
+<h2>Routing</h2>
+<ul>
+	<li><a [routerLink] = "['/Product']">Product</a></li>
+	<li><a [routerLink] = "['/Inventory']">Inventory</a></li>
+</ul>
+<router-outlet></router-outlet>
+<br/><br/><hr/>
