@@ -100,3 +100,8 @@
 	- Changes the appearance or behavior of a DOM element
 <kbd><img src="/imgs-readme/custom-directive_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
 
+---
+### Services
+	- Changes the appearance or behavior of a DOM element
+<kbd><img src="/imgs-readme/services_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+

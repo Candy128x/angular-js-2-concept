@@ -1,12 +1,23 @@
 import { Component } from '@angular/core';
+import { StudentService } from './student.service';
+
 
 @Component ({
 	selector: 'student',
 	templateUrl: 'app/student/student.component.html',
 	styleUrls: [ 'app/student/student.component.css' ],
-	// styles: ['h2{color: green;}']
+	// styles: ['h2{color: green;}'],
+	providers: [ StudentService ]
 })
+
+
 export class StudentComponent {
+
+	studentCars: any[] = null;
+	constructor(private studcService: StudentService) {
+		this.studentCars = this.studcService.getStudent();
+	}
+
 	firstName:string = 'Dev';
 	lastName:string = 'Kumar';
 	age:number = 19;

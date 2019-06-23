@@ -1,3 +1,27 @@
+<hr>
+<h1>Student's Car Details:</h1>
+<table border="1" cellpadding="5">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Car</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let studc of studentCars">
+			<td>{{studc.id}}</td>
+			<td>{{studc.name}}</td>
+			<td>{{studc.car}}</td>
+		</tr>
+		<tr *ngIf="studentCars.length==0">
+			<td colspan="6">Data Not Found!</td>
+		</tr>
+	</tbody>
+</table>
+<hr/>
+
+
 <h2>Student Table</h2>
 
 <table border="1" cellpadding="5">
