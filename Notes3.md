@@ -102,6 +102,17 @@
 ### Navigation
 - Enable to jump one section to other section.
 
+---
+### Custom Directives
+	* Directives
+- Changes the appearance or behavior of a DOM element
+- Components are more common types of directives in Anguler.
+
+	* Types
+- Component
+- Structural Directive
+- Attribute Directive
+
 
 ---
 @ref

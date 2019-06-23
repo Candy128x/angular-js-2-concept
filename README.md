@@ -94,3 +94,9 @@
 ### Navigation (gif img)
 	- Enable to jump one section to other section.
 <kbd><img src="/imgs-readme/nvavigation_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
+
+---
+### Custom Directives
+	- Changes the appearance or behavior of a DOM element
+<kbd><img src="/imgs-readme/custom-directive_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+

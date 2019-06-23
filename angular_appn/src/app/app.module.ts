@@ -13,6 +13,7 @@ import { InventoryComponent } from './spa/inventory.component';
 import { PageNotFoundComponent } from './spa/PageNotFound.component';
 import { RouterModule, Routes } from '@angular/router';
 
+import { CustH3ColorDirective } from './Directives/custh3color.directive';
 
 const appRoutes: Routes = [
 	{ path: 'Home', component: SpaComponent },
@@ -25,7 +26,8 @@ const appRoutes: Routes = [
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(appRoutes) ],
   declarations: [ AppComponent, EmployeeComponent, StudentComponent, StudentSalaryPipe,
-  					SpaComponent, ProductComponent, InventoryComponent, PageNotFoundComponent ],
+  					SpaComponent, ProductComponent, InventoryComponent, PageNotFoundComponent,
+  					CustH3ColorDirective ],
   bootstrap:    [ AppComponent ]
 })
 
